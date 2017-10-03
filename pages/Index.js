@@ -208,7 +208,7 @@ export default class Index extends React.Component {
                 · Server-Side React · Universal JavaScript · Progressive Web ·
               </JumbotronHeaderSmall>
               <br /><br />
-              <CTAButton href="https://github.com/codecommission/linklet/blob/master/docs/getting-started.md#installation">npm install -g reunify</CTAButton>
+              <CTAButton href="https://github.com/codecommission/reunify/blob/master/docs/getting-started.md#installation">npm install -g reunify</CTAButton>
             </Jumbotron>
 
             <TechStackContainer>
@@ -227,7 +227,7 @@ export default class Index extends React.Component {
 
           <section id="features">
             <SectionHeading>
-              <SectionTitleSmall>What Linklet Does?</SectionTitleSmall>
+              <SectionTitleSmall>What reunify Does?</SectionTitleSmall>
               <SectionTitleLarge>Features</SectionTitleLarge>
             </SectionHeading>
 
@@ -327,7 +327,7 @@ export default class Index extends React.Component {
 
           <section id="about">
             <SectionHeading>
-              <SectionTitleSmall>Why Linklet Microservices?</SectionTitleSmall>
+              <SectionTitleSmall>Why reunify Microservices?</SectionTitleSmall>
               <SectionTitleLarge>Run your code in seconds</SectionTitleLarge>
             </SectionHeading>
 
@@ -371,7 +371,7 @@ export default class Index extends React.Component {
             <SectionHeading>
               <SectionTitleSmall>How to use?</SectionTitleSmall>
               <SectionTitleLarge>
-                <a href="https://github.com/codecommission/linklet-examples" target="_blank">
+                <a href="https://github.com/codecommission/reunify-examples" target="_blank">
                   <i className="fa fa-github" aria-hidden="true" />&nbsp;Examples
                 </a>
               </SectionTitleLarge>
@@ -383,10 +383,10 @@ export default class Index extends React.Component {
                     <AboutInfoContainer>
                         <AboutIcon><i className="fa fa-cube"></i></AboutIcon>
                         <AboutInfo>
-                            <h3><a href="https://linklet-basic.cloud.dropstack.run" target="_blank">HTTP/JSON Response</a></h3>
+                            <h3><a href="https://reunify-basic.cloud.dropstack.run" target="_blank">HTTP/JSON Response</a></h3>
                             <Code>{`curl -XGET \\
   -H "Content-Type: application/json" \\
-  https://linklet-basic.cloud.dropstack.run`}</Code>
+  https://reunify-basic.cloud.dropstack.run`}</Code>
                         </AboutInfo>
                     </AboutInfoContainer>
                 </div>
@@ -405,33 +405,14 @@ export default class Index extends React.Component {
                     <AboutInfoContainer>
                       <AboutIcon><i className="fa fa-cube"></i></AboutIcon>
                       <AboutInfo>
-                          <h3><a href="https://linklet-json-body-parsing.cloud.dropstack.run" target="_blank">Parse HTTP/JSON Body</a></h3>
+                          <h3><a href="https://reunify-json-body-parsing.cloud.dropstack.run" target="_blank">Parse HTTP/JSON Body</a></h3>
 <Code>{`curl -XPOST \\
   -H "Content-Type: application/json" \\
   -d '{"hello":"world"}' \\
-  https://linklet-json-body-parsing.cloud.dropstack.run`}</Code>
-                      </AboutInfo>
-                    </AboutInfoContainer>
-                </div>
-                <div className="wow fadeInRight animated" data-wow-delay="0.6s" style={{display: 'none'}}>
-                    <AboutInfoContainer>
-                      <AboutIcon><i className="fa fa-cube"></i></AboutIcon>
-                      <AboutInfo>
-                        <h3>Functional composition</h3>
-                        <p>Develop HTTP responses by functional composition to Higher-Order-Functions.</p>
-                      </AboutInfo>
-                    </AboutInfoContainer>
-                </div>
-              </div>
-              <div>
-                <div className="wow fadeInRight animated" data-wow-delay="0.3s">
-                    <AboutInfoContainer>
-                      <AboutIcon><i className="fa fa-cube"></i></AboutIcon>
-                      <AboutInfo>
-                          <h3><a href="https://linklet-external-api-call.cloud.dropstack.run" target="_blank">External HTTP call</a></h3>
+  https://reunify-external-api-call.cloud.dropstack.run" target="_blank">External HTTP call</a></h3>
                           <Code>{`curl -XGET \\
   -H "Content-Type: application/json" \\
-  https://linklet-external-api-call.cloud.dropstack.run`}</Code>
+  https://reunify-external-api-call.cloud.dropstack.run`}</Code>
                       </AboutInfo>
                     </AboutInfoContainer>
                 </div>
