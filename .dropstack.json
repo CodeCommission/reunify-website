@@ -1,0 +1,10 @@
+{
+  "variables": "",
+  "instances": 1,
+  "alias": "www.reunify.run",
+  "type": "npm",
+  "excludes": [],
+  "userId": "go@dropstack.run",
+  "serviceUrl": "ggawwzko.cloud.dropstack.run",
+  "name": "ggawwzko"
+}

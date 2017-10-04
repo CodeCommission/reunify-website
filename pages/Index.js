@@ -381,10 +381,8 @@ export default class Index extends React.Component {
                   <AboutInfoContainer>
                       <AboutIcon><i className="fa fa-cube"></i></AboutIcon>
                       <AboutInfo>
-                          <h3><a href="https://reunify-basic.cloud.dropstack.run" target="_blank">HTTP/JSON Response</a></h3>
-                          <Code>{`curl -XGET \\
--H "Content-Type: application/json" \\
-https://reunify-basic.cloud.dropstack.run`}</Code>
+                          <h3><a href="https://reunify-fetch-data.cloud.dropstack.run" target="_blank">Fetch initial data</a></h3>
+                          <p>How to use `getInitialProps` for data fetching with `fetch`.</p>
                       </AboutInfo>
                   </AboutInfoContainer>
               </div>
@@ -392,11 +390,8 @@ https://reunify-basic.cloud.dropstack.run`}</Code>
                   <AboutInfoContainer>
                     <AboutIcon><i className="fa fa-cube"></i></AboutIcon>
                     <AboutInfo>
-                        <h3><a href="https://reunify-json-body-parsing.cloud.dropstack.run" target="_blank">Parse HTTP/JSON Body</a></h3>
-<Code>{`curl -XPOST \\
--H "Content-Type: application/json" \\
--d '{"hello":"world"}' \\
-https://reunify-json-body-parsing.cloud.dropstack.run`}</Code>
+                        <h3><a href="https://reunify-css.cloud.dropstack.run" target="_blank">CSS and Styled-Components</a></h3>
+                        <p>How to use CSS and Styled-Components.</p>
                     </AboutInfo>
                   </AboutInfoContainer>
               </div>
@@ -404,10 +399,8 @@ https://reunify-json-body-parsing.cloud.dropstack.run`}</Code>
                   <AboutInfoContainer>
                     <AboutIcon><i className="fa fa-cube"></i></AboutIcon>
                     <AboutInfo>
-                        <h3><a href="https://reunify-external-api-call.cloud.dropstack.run" target="_blank">External HTTP call</a></h3>
-                        <Code>{`curl -XGET \\
--H "Content-Type: application/json" \\
-https://reunify-external-api-call.cloud.dropstack.run`}</Code>
+                        <h3><a href="https://reunify-json-response.cloud.dropstack.run" target="_blank">JSON Responses</a></h3>
+                        <p>How to serve JSON responses.</p>
                     </AboutInfo>
                   </AboutInfoContainer>
               </div>
