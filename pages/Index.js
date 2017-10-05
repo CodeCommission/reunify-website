@@ -129,8 +129,9 @@ const AboutSectionContent = styled.div`
   display: -ms-flexbox;
   display: -webkit-flex;
   flex-direction: row;
-  margin: 4rem;
+  margin: 12rem;
   justify-content: space-between;
+  flex-flow: wrap;
 `
 
 const AboutInfoContainer = styled.div`
