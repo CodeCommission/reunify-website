@@ -22,7 +22,6 @@ const Nav = styled.div`
   display: -webkit-flex;
   justify-content: space-between;
   margin: 0;
-  padding: ${props => (!props.hasScrolled ? "10px 0 10px 0" : "0")};
   background: ${props =>
     props.hasScrolled
       ? "rgba(238, 238, 238, 0.9)"
@@ -46,8 +45,7 @@ const Nav = styled.div`
 const NavItems = styled(Scrollspy)`
   list-style-type: none;
   display: inline-flex;
-  margin: 0;
-  margin-top: 12px;
+  flex-wrap: wrap;
 `;
 
 const NavItem = styled.li`
@@ -107,8 +105,8 @@ const ScrollToTop = styled.a`
 `;
 
 const NavLogoImage = styled.img`
-  height: 45px;
-  width: 45px;
+  height: 35px;
+  width: 35px;
   margin: 6px;
 `;
 
@@ -124,14 +122,14 @@ const NavLogoLink = styled.a`
 const NavLogoBrand = styled.div`
   font-weight: 400;
   text-transform: uppercase;
-  font-size: 24px;
-  margin-top: 12px;
+  font-size: 20px;
+  margin-top: 10px;
 `;
 
 const Content = styled.main`
   width: 100%;
   background-color: white;
-  padding-bottom: 70px;
+  padding-bottom: 100px;
 `;
 
 const Footer = styled.footer`
@@ -141,7 +139,7 @@ const Footer = styled.footer`
   left: 0;
   margin: 0 auto;
   padding: 10px 0 10px 0;
-  height: 70px;
+  height: 100px;
   color: #eee;
   font-size: 10px;
   background: #0d5310
